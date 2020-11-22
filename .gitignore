@@ -4,4 +4,4 @@
 .vscode
 cargo.lock
 */target/*
-*/.git
+*/.gitignore
