@@ -18,7 +18,6 @@ impl Solution {
         // 长度为3以上的个数
         let mut dp3 = 0;
 
-        let mut pos = 0;
         let mut cur = 1;
         for i in 0..(nums.len() - 1) {
             if nums[i] == nums[i + 1] {
